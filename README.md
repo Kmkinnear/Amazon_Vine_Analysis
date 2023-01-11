@@ -31,7 +31,6 @@ The overview of this project was to analyze Amazon reviews and do analysis on a 
 - We can see in the images above the percentage of Vine (paid) reviews that were 5 stars was 45.16 %. We can also see that the percentage of non-Vine (unpaid) reviews that were 5 stars was 51.31 %.
 
 ## Summary
-Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
 
 We determined that there did not appear to be any bias when examining the 5-star reviews from the Vine program compared to the non-Vine 5-star reviews. We determined that by looking at our paid 5-star review percentage of 45.16 % and comparing that to the unpaid 5-star percentage of 51.31 %. The 5-star review percentage was higher for the non-Vine reviews, so we believe there does not appear to be any strongly positive or negative bias.
 
