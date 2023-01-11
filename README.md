@@ -12,7 +12,7 @@ The overview of this project was to analyze Amazon reviews and do analysis on a 
 
 <img width="386" alt="image" src="https://user-images.githubusercontent.com/110848660/211879003-02e696a2-bfb1-4d3e-91ee-c90e0d4c8453.png">
 
-- We can see in the images above the number of Vine (paid) reviews and also the number of non-Vine (unpaid). The total number of Vine reviews was 248 while the number of non-Vine reviews was 96,653
+- We can see in the images above the number of Vine (paid) reviews and the number of non-Vine (unpaid). The total number of Vine reviews was 248 while the number of non-Vine reviews was 96,653.
 
 ### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 
@@ -33,6 +33,8 @@ The overview of this project was to analyze Amazon reviews and do analysis on a 
 ## Summary
 Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
 
-We determined that there did not appear to be any bias when examining the 5-star reviews from the Vine program compared to the non-Vine 5-star reviews. We determined that by looking at our paid 5-star review percentage of 45.16 % and comparing that to the unpaid 5-star percentage of 51.31 %. The 5-star review percentage was higher for the non-Vine reviews so we believe there does not appear to be any strongly positive or negative bias.
+We determined that there did not appear to be any bias when examining the 5-star reviews from the Vine program compared to the non-Vine 5-star reviews. We determined that by looking at our paid 5-star review percentage of 45.16 % and comparing that to the unpaid 5-star percentage of 51.31 %. The 5-star review percentage was higher for the non-Vine reviews, so we believe there does not appear to be any strongly positive or negative bias.
 
-Some additional analysis that we could do with the dataset to determine bias would be to look at other summary statistics. We could examine the same dataset any find the mean, median, and mode of scores among paid vs. unpaid reviewers. Just because the Vine reviewers did not give 5-star review ratings doesn't mean that they didn't show some sort of bias. It's possible that they showed bias but did so by grading reviews as mostly 4-star ratings instead of lower scores. 
+Some additional analysis that we could do with the dataset to determine bias would be to look at other summary statistics. We could examine the same dataset and find the mean, median, and mode of scores among paid vs. unpaid reviewers. Just because the Vine reviewers did not give 5-star review ratings doesn't mean that they didn't show some sort of bias. We decided to run some basic summary statistics on our dataframes that we created by filtering on the "helpful reviews". We can see that the mean star rating for Vine reviews is 4.37 while the mean star rating for non-Vine reviews was 3.25. We can also see the minimum star rating for Vine reviews was 2 while the minimum star rating for non-Vine reviews was 1. That tells us that there may be some bias and that we should continue to do more analysis. 
+
+<img width="706" alt="image" src="https://user-images.githubusercontent.com/110848660/211887696-54400d9d-6b53-4881-b660-4ee3d2bf0ee4.png">
